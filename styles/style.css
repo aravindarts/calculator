@@ -40,7 +40,7 @@ body {
     flex-wrap: wrap;
 }
 
-.buttons {
+.button {
     display: flex;
     font-size: 25px;
     font-weight: 500;
@@ -56,11 +56,10 @@ body {
     z-index: 2;
     box-shadow: 2px 2px 2px rgb(116, 115, 115);
 }
-
-.buttons:nth-child(1),
-.buttons:nth-child(2),
-.buttons:nth-child(3),
-.buttons:nth-child(4n)
+.button:nth-child(1),
+.button:nth-child(2),
+.button:nth-child(3),
+.button:nth-child(4n)
  {
     background: rgb(255, 192, 203);
 }
